@@ -37,7 +37,7 @@ Klik link di bawah untuk melihat hasil karya gue (dengan transisi loading atom 4
 
 ---
 
-## 📡 Hubungi Gue
+## 📡 Hubungi Gue 😏
 Jangan ragu buat mampir atau sekadar tanya-tanya:
 
 | Platform | Link |
