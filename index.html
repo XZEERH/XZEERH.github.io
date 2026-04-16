@@ -65,7 +65,18 @@
         .box:hover { border-color: var(--red); transform: translateY(-5px); }
 
         .profile-box { grid-column: span 2; text-align: center; }
-        .avatar { width: 80px; height: 80px; border-radius: 50%; border: 3px solid var(--red); margin-bottom: 12px; }
+        
+        /* Perbaikan area gambar profil */
+        .avatar { 
+            width: 90px; 
+            height: 90px; 
+            border-radius: 50%; 
+            border: 3px solid var(--red); 
+            margin-bottom: 12px; 
+            object-fit: cover; /* Agar gambar tidak gepeng */
+            display: inline-block; 
+        }
+
         h1 { font-weight: 800; font-size: 24px; letter-spacing: -1px; }
 
         .count-num { font-size: 28px; font-weight: 800; color: var(--red); display: block; }
@@ -103,7 +114,8 @@
 
     <div class="container">
         <div class="box profile-box" style="margin-bottom: 15px;">
-            <img src="assets/favicon-razeerh.jpg">
+            <!-- Menambahkan class="avatar" agar gambar menjadi bulat dan kecil -->
+            <img src="assets/favicon-razeerh.jpg" class="avatar" alt="Profile">
             <h1>RAZEERH DEV</h1>
             <p style="font-size: 13px; margin-top: 5px; opacity: 0.8;">I'm a <span id="typing-text" style="color: var(--red); font-weight: bold;"></span></p>
         </div>
@@ -181,13 +193,11 @@
             const todayStr = new Date().toLocaleDateString('id-ID');
             let stored = JSON.parse(localStorage.getItem('zane_stats_v4'));
 
-            // Mun can aya data atawa ganti tanggal, reset/generate anyar
             if (!stored || stored.date !== todayStr) {
                 const baseHistory = [];
                 for(let i=0; i<4; i++) {
-                    baseHistory.push(Math.floor(Math.random() * 200) + 300); // Angka statis poé kamari
+                    baseHistory.push(Math.floor(Math.random() * 200) + 300);
                 }
-                // Poé ayeuna mimitian ti 0
                 baseHistory.push(0); 
 
                 stored = {
@@ -196,7 +206,6 @@
                 };
                 localStorage.setItem('zane_stats_v4', JSON.stringify(stored));
             } else {
-                // Mun tanggalna sarua, angka index ka-4 (ayeuna) tambahkeun
                 stored.history[4] += Math.floor(Math.random() * 5) + 2; 
                 localStorage.setItem('zane_stats_v4', JSON.stringify(stored));
             }
@@ -229,7 +238,7 @@
             if(!canvas) return;
             const ctx = canvas.getContext('2d');
             const isLight = document.body.classList.contains('light-mode');
-            const dataObj = getBotStats(); // Ambil data nu geus di-update
+            const dataObj = getBotStats();
 
             const labels = [];
             for (let i = 4; i >= 0; i--) {
@@ -301,7 +310,7 @@
         });
 
         function updateTime() {
-            const el = document.getElementById('jam-zane');
+            const el = document.getElementById('razeerh-time'); // Diperbaiki id nya agar sesuai HTML
             if(el) el.innerText = new Date().toLocaleTimeString('id-ID', {hour: '2-digit', minute: '2-digit', second: '2-digit'});
         }
         setInterval(updateTime, 1000);
@@ -315,13 +324,12 @@
             }, 30);
         }
 
-        // INITIAL LOAD
         window.addEventListener('load', () => { 
             if (localStorage.getItem('theme') === 'light') { 
                 document.body.classList.add('light-mode'); 
                 btnToggle.innerText = "☀️"; 
             }
-            getBotStats(); // Trigger nambahan angka pas refresh
+            getBotStats(); 
             type(); 
             updateTime(); 
         });
