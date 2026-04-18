@@ -1,4 +1,4 @@
-# 🌌 RAZEERH | Cyber Portfolio
+# 🌌 RAZEERH | DEV
 > **"Gunakan lah AI mu dengan sebijak-bijaknya. Cukup umurmu yang di bawah, jangan otakmu pula yang di bawah."** 😹
 
 ![Versi](https://img.shields.io/badge/Version-3.0.0-00f3ff?style=for-the-badge)
