@@ -21,7 +21,7 @@ Akses antarmuka utama (*Front-end*) dari direktori ini melalui tautan aman berik
 
 | System Name | Designation | Status | Link |
 | :--- | :--- | :---: | :--- |
-| **XZAM HUB** | Root Directory & Dev Profile | `ACTIVE` | [View Hub](https://xzeerh.github.io/) |
+| **XZEERH SYSTEM** | Root Directory & Dev Profile | `ACTIVE` | [View Hub](https://xzeerh.github.io/) |
 | **PORTAL EAC** | Astronomy Data & PWA System | `ACTIVE` | [Access System](https://portal-eac.vercel.app/ |
 
 ---
