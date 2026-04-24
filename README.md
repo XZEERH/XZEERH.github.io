@@ -43,7 +43,7 @@ Sistem *Hub* ini dibangun dengan arsitektur web modern yang berfokus pada kecepa
 Saya adalah pengembang sistem dan kreator edukasi yang berfokus pada integrasi web, optimalisasi PWA (Progressive Web App), dan arsitektur edukasi sains antariksa.
 
 * **Alias:** Xzam
-* **Title:** System Developer & Founder of EAC and IEA
+* **Title:** System Developer & Founder of EAC and TEA
 * **Location:** Indonesia 🇮🇩
 
 ---
