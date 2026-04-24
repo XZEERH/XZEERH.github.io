@@ -1,55 +1,52 @@
-# 🌌 RAZEERH | DEV
-> **"Gunakan lah AI mu dengan sebijak-bijaknya. Cukup umurmu yang di bawah, jangan otakmu pula yang di bawah."** 😹
+# 🚀 XZEERH SYSTEM
 
-![Versi](https://img.shields.io/badge/Version-3.0.0-00f3ff?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-ff00ff?style=for-the-badge)
-![Role](https://img.shields.io/badge/Role-Phone%20Programmer-white?style=for-the-badge)
+![System Status](https://img.shields.io/badge/System-Online-00ff41?style=for-the-badge&logo=gnometerminal&logoColor=white)
+![Role](https://img.shields.io/badge/Role-System_Architect-00f3ff?style=for-the-badge&logo=linux&logoColor=white)
+![Security](https://img.shields.io/badge/Security-Verified-success?style=for-the-badge&logo=shieldsdotio&logoColor=white)
 
----
+> **"Welcome to the Main Directory. Initializing secure connection..."**
 
-## 🛰️ Tentang Saya
-Halo! Gue **Razeerh** (Ramadhan). Gue adalah seorang programmer pemula yang bermodal **Handphone dan AI**. Saat ini gue masih menempuh pendidikan di tingkatan SMA/K dan menduduki kelas "YTTA".
-
-Gue percaya bahwa bakat itu bisa dibentuk. Gue memulai hobi ini karena ingin menjadi orang yang berguna melalui karya-karya digital yang gue buat sendiri.
+Selamat datang di *Root Repository* resmi dari **XZEERH**. Repositori ini berfungsi sebagai *Landing Page* utama dan pusat integrasi (*Hub*) menuju seluruh sistem dan proyek digital yang saya kembangkan, termasuk **Portal EAC (Education Astronomy Creator)**.
 
 ---
 
-## 🔭 Eksplorasi & Hobi
-* **Astro-Physics:** Mempelajari konsep alam semesta.
-* **Web Development:** Mengkaji dan membangun website futuristik.
-* **Sports:** Bermain raket (Badminton) sejak kecil.
+## 🌐 Live System Access
+
+Akses antarmuka utama (*Front-end*) dari direktori ini melalui tautan aman berikut:
+### 🔗 [https://xzeerh.github.io/](https://xzeerh.github.io/)
 
 ---
 
-## 🏆 Prestasi & Proyek Utama
-Klik link di bawah untuk melihat hasil karya gue (dengan transisi loading atom 4 detik):
+## 📂 Active Sub-Systems (Portfolio)
 
-1.  [**PORTAL EAC**](https://portal-eac.vercel.app/) - Portal berbasis keseluruhan yang telah digabung.
-2.  [**EAC-AI**](https://eac-ai.vercel.app/) - AI Berbasis buatan gue sendiri.
-
----
-
-## 🛠️ Tech Stack (The Mobile Dev Kit)
-* **Device:** Android Smartphone
-* **Coding:** Acode Editor
-* **Frontend:** HTML5, CSS3 (Neon UI), JavaScript (AOS Library)
-* **Intelligence:** Google Gemini AI (The Best Collaborator 🗿)
+| System Name | Designation | Status | Link |
+| :--- | :--- | :---: | :--- |
+| **XZAM HUB** | Root Directory & Dev Profile | `ACTIVE` | [View Hub](https://xzeerh.github.io/) |
+| **PORTAL EAC** | Astronomy Data & PWA System | `ACTIVE` | [Access System](https://portal-eac.vercel.app/ |
 
 ---
 
-## 📡 Hubungi Gue 😏
-Jangan ragu buat mampir atau sekadar tanya-tanya:
+## ⚙️ Tech Stack & Architecture
 
-| Platform | Link |
-| :--- | :--- |
-| **WhatsApp** | [083865255697](https://wa.me/6283865255697) |
-| **Email** | [razeerh08@gmail.com](mailto:razeerh08@gmail.com) |
-| **TikTok** | [@razeerh.edukasi](https://www.tiktok.com/@razeerh.edukasi) |
-| **Instagram** | [@razeerh.edukasi](https://www.instagram.com/razeerh.edukasi) |
+Sistem *Hub* ini dibangun dengan arsitektur web modern yang berfokus pada kecepatan, SEO tingkat tinggi, dan estetika terminal/cyber:
+
+* **Core Language:** HTML5, CSS3 (Vanilla)
+* **Visual Effects:** CSS Keyframe Animations (Glitch Protocol)
+* **SEO & Metadata:** JSON-LD Schema.org, Open Graph (OG), Canonical URL
+* **Deployment:** GitHub Pages (Optimized with `.nojekyll`)
+* **Index Control:** XML Sitemap & `robots.txt` routing
 
 ---
 
-<p align="center">
-  <i>Terima kasih telah mengunjungi markas digital gue. ✨</i><br>
-  <b>— RAZEERH —</b>
-</p>
+## 👨‍💻 About The Architect
+
+Saya adalah pengembang sistem dan kreator edukasi yang berfokus pada integrasi web, optimalisasi PWA (Progressive Web App), dan arsitektur edukasi sains antariksa.
+
+* **Alias:** Xzam
+* **Title:** System Developer & Founder of EAC and IEA
+* **Location:** Indonesia 🇮🇩
+
+---
+
+*System initialized and maintained by XZEERH &copy; 2026.*
+*End of file.*
